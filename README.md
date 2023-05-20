@@ -1,9 +1,10 @@
-# currency-conventer
+# Currency-conventer
 ## Demo
 https://dawidmejerfrontend.github.io/currency-conventer/
 
 ## Description
-You can convert a amount from PLN into other currency.
+You can convert an amount from PLN into other currency.
+![currency-conventer-animation](images/Animation.gif)
 
 ## Tools & technologies
 1. HTML
