@@ -12,7 +12,10 @@
         const currencySEK = 0.41;
         const currencyUSD = 4.22;
 
-        if (amount < 0) { return resultElement.innerText = "Liczba musi byc dodatnia" };
+        if (amount < 0) {
+            resultElement.innerText = "Liczba musi byc dodatnia";
+            return;
+        };
 
         switch (currency) {
 
@@ -45,6 +48,7 @@
         const result = calculateResult(amount, currency,);
 
         updateResultText(result, currency);
+
     };
 
     const updateResultText = (result, currency) => {
